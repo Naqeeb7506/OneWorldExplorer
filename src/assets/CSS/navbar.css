@@ -1,0 +1,41 @@
+.navbar-brand{
+    font-weight: 800 !important;
+}
+nav ul li a{
+    color: #fff !important;
+    text-decoration: none ;
+    background: none;
+    transition: all 0.3s linear;
+    padding: 8px;
+    border-radius: 5px;
+}
+
+nav ul{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+nav ul li a:hover{
+    background: #fff;
+    color: #000 !important;
+    border-radius: 5px;
+    padding: 8px;
+}
+
+.active{
+    background: #fff;
+    color: #000 !important;
+     border-radius: 5px;
+}
+
+@media (max-width: 768px){
+    nav ul li{
+        border-bottom: 1px solid #fff;
+    }
+    nav ul{
+        align-items: flex-start;
+        margin: 20px 0px;
+        gap: 20px;
+    }
+}
